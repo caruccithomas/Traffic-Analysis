@@ -1,0 +1,6 @@
+services:
+  servicio:
+    container_name: app
+    build: ./app
+    ports:
+      - "80:80"
